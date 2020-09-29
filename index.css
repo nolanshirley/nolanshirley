@@ -230,7 +230,7 @@ h3 {
 }
 /* FOOTER */
 .footer {
-    height: 10.5vh; 
+    height: 8vh; 
     background-color: #38b4c7; 
     margin: 25px;
     margin-bottom: 0px; 
@@ -238,7 +238,7 @@ h3 {
 
 #footerContent {
     text-align: center!important; 
-    margin-top: 14px; 
+    margin-top: 12px; 
     font-weight: bolder; 
     color: white; 
 }
