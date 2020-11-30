@@ -1,0 +1,23 @@
+#occupation {
+    margin-left: -10px; 
+}
+
+.navbar {
+    height: 10vh; 
+}
+
+.navbar-toggler {
+    margin-left: auto; 
+}
+
+#everylink {
+    margin-left: 0em; 
+}
+
+.section1 {
+    overflow: scroll; 
+}
+
+.show ul li {
+    margin-left: auto; 
+}
