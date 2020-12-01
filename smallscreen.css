@@ -49,4 +49,17 @@ nav {
     padding-top: -4em; 
 }
 
+/* ABOUT ME SECTION IphoneX css*/
+#card1 {
+    margin-left: -1.5em; 
+    padding-bottom: 3em; 
+}
 
+#card2 {
+    margin-left: -1.5em; 
+}
+
+#card3 {
+    padding-top: 3em; 
+    margin-left: -1.5em; 
+}
