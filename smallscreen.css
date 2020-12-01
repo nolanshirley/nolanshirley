@@ -1,5 +1,5 @@
-#occupation {
-    margin-left: -10px; 
+nav {
+    max-width: 380px;
 }
 
 .navbar {
@@ -10,14 +10,43 @@
     margin-left: auto; 
 }
 
-#importantlinks {
-    margin-left: 0em; 
-}
-
 .section1 {
-    overflow: scroll; 
+    overflow: scroll; /* allows for separation of the first and second sections */
 }
 
 .show ul li {
     margin-left: auto; 
 }
+
+/* SECTION 1 iphoneX view css */ 
+#nameExpand {
+    font-size: 50px; 
+    text-align: center; 
+    padding-top: 25px; 
+    margin-left: 15px; 
+    padding-bottom: 10px; 
+}
+
+#occupation {
+    font-size: 50px; 
+}
+
+#link1 { /* linkedIn */
+    padding-right: 10em; 
+    padding: 10px; 
+    margin-top: -2.5em;
+    padding-bottom: 3em;  
+}
+
+#link2 {  /* Github link */
+    padding-right: 10em; 
+    padding: 10px; 
+    padding-left: 0.9em; 
+}
+
+#importantlinks {
+    padding-left: 6.5em; 
+    padding-top: -4em; 
+}
+
+
