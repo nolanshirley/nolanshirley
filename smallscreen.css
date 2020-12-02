@@ -49,6 +49,16 @@ nav {
     padding-top: -4em; 
 }
 
+/* PROJECT SECTION */
+#portfoliolabel {
+    margin-left: 0.3em; 
+    margin-top: -2em; 
+    text-align: center; 
+}
+
+
+
+
 /* ABOUT ME SECTION IphoneX css*/
 #card1 {
     margin-left: -1.5em; 
