@@ -61,7 +61,7 @@
         </h1>
       </div>
       <div class="row">
-        <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="1500">
+        <div class="col-md-4 transition" data-aos="zoom-out-right" data-aos-duration="1500">
           <div class="individual">
             <a href="https://nolanshirley.github.io/staticLayoutProject/" class="firstImg">
               <img src="./assets/Screenshot (15).png" alt="">
@@ -73,7 +73,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
+        <div class="col-md-4 transition2" data-aos="fade-up" data-aos-duration="1500">
           <div class="individual">
             <a href="https://codepen.io/nolanshirley/full/wvGMxBZ">
               <img src="./assets/Screenshot (17).png" alt="">
@@ -85,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="1500">
+        <div class="col-md-4 transition3" data-aos="zoom-out-left" data-aos-duration="1500">
           <div class="individual">
             <a href="">
               <img src="https://images.unsplash.com/photo-1570051008600-b34baa49e751?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80" alt="">
@@ -99,7 +99,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="1500">
+        <div class="col-md-4 transition4" data-aos="zoom-out-right" data-aos-duration="1500">
           <div class="individual">
             <a href="https://nolanshirley.github.io/SpaceX-API-Project/">
               <img src="https://images.unsplash.com/photo-1517976547714-720226b864c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="">
@@ -111,7 +111,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500">
+        <div class="col-md-4 transition5" data-aos="fade-up" data-aos-duration="1500">
           <div class="individual">
             <a href="https://nbs-api2.firebaseapp.com/">
               <img src="https://images.unsplash.com/photo-1577805996203-4b5eed5ba295?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="">
@@ -123,7 +123,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="1500">
+        <div class="col-md-4 transition6" data-aos="zoom-out-left" data-aos-duration="1500"> 
           <div class="individual">
             <a href="">
               <img src="https://images.unsplash.com/photo-1592478496815-b4d3b5c279a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=915&q=80" alt="">
@@ -237,20 +237,38 @@
     </div>
   </footer>
   
-
-
- 
-
-<script type='text/javascript' src="API1.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-</body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init();
+        AOS.init();
+        const func = () => {
+            if (window.screen.width < 768) {
+            const transition = document.querySelector(".transition") 
+            const transition2 = document.querySelector(".transition2")
+            const transition3 = document.querySelector('.transition3')
+            const transition4 = document.querySelector('.transition4')
+            const transition5 = document.querySelector('.transition5')
+            const transition6 = document.querySelector('.transition6')
+
+            console.log(transition.attributes["data-aos"]) 
+            transition.attributes["data-aos"].value = "" 
+            transition2.attributes["data-aos"].value = ""
+            transition3.attributes["data-aos"].value = ""
+            transition4.attributes["data-aos"].value = ""
+            transition5.attributes["data-aos"].value = ""
+            transition6.attributes["data-aos"].value = ""
+            
+        }
+    }
+    func(); 
   </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 
   <script src="https://kit.fontawesome.com/8aa3fe0abe.js" crossorigin="anonymous"></script>
+
+
+</body>
+  
+  <!-- <script type='text/javascript' src="portfolio.js"></script>   -->
 
 </html>
