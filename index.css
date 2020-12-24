@@ -179,7 +179,8 @@ h3 {
 }
 
 .card-body {
-    background-color: #030f80; 
+    background-color: #1E2AB0; 
+    /* #030f80;  */
 }
 
 /* CONTACT  */
@@ -218,7 +219,7 @@ h3 {
 }
 
 .sendButton {
-    background-color: #030f80;
+    background-color: #1E2AB0;
     color: white; 
     font-weight: bolder; 
     font-size: 20px; 
@@ -242,8 +243,9 @@ h3 {
 .footer {
     height: 8vh; 
     background-color: #38b4c7; 
-    margin: 25px;
-    margin-bottom: 0px; 
+    margin-top: 25px;
+    width: 100vw; 
+    /* margin-bottom: 0px;  */
 }
 
 #footerContent {
@@ -256,4 +258,28 @@ h3 {
 #footerRow {
     width: 100%;
     height: 100%;
+}
+
+#footer1 {
+    font-size: 2em; 
+    margin-top: 0.2em; 
+    margin-left: 3em;
+}
+
+#codepenFooter {
+    font-size: 2em; 
+    margin-top:-0.1em; 
+    margin-left: 7em;
+}
+
+#jsFooter {
+    font-size: 2em; 
+    margin-left: 7em; 
+    margin-top: 0.2em;
+}
+
+#htmlFooter {
+    font-size: 2em; 
+    margin-left: 6em; 
+    margin-top: 0.3em;
 }
