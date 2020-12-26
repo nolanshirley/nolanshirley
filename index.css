@@ -9,6 +9,7 @@
 
 #importantlinks {
     padding-left: 20em;
+    padding-top: 5em; 
 }
 
 .navbar-light .navbar-nav .active>.nav-link {
@@ -18,7 +19,8 @@
 		-0.5px -0.5px 0 #000,
 		0.5px -0.5px 0 #000,
 		-0.5px 0.5px 0 #000,
-		0.5px 0.5px 0 #000;
+        0.5px 0.5px 0 #000;
+    padding-right: 15px; 
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -28,7 +30,8 @@
 		-0.5px -0.5px 0 #000,
 		0.5px -0.5px 0 #000,
 		-0.5px 0.5px 0 #000,
-		0.5px 0.5px 0 #000;
+        0.5px 0.5px 0 #000;
+    padding-right: 15px; 
 }
 
 #introduction {  
@@ -60,8 +63,8 @@
     text-align: center; 
     font-size: 65px; 
     color: #6ddaed; 
-    padding-top: 2%; 
-    padding-right: 0.5px; 
+    padding-top: 5.5%; 
+    padding-left: 40px; 
     font-weight: bolder; 
     text-shadow:
 		-1px -1px 0 #000,
