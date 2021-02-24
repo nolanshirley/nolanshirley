@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 .container {
@@ -191,7 +192,6 @@ h3 {
 }
 
 /* CONTACT  */
-
 #contactRow {
     text-align: center; 
 }
@@ -249,7 +249,7 @@ h3 {
 /* FOOTER */
 .footer {
     height: 8vh; 
-    background-color: #38b4c7; 
+    background-color: white; 
     margin-top: 25px;
     width: 100vw; 
     /* margin-bottom: 0px;  */
@@ -258,8 +258,9 @@ h3 {
 #footerContent {
     text-align: center!important; 
     margin-top: 12px; 
+    font-size: 1.1rem;  
     font-weight: bolder; 
-    color: white; 
+    color: #38b4c7; 
 }
 
 #footerRow {
@@ -267,26 +268,30 @@ h3 {
     height: 100%;
 }
 
-#footer1 {
+#bootstrapIcon {
     font-size: 2em; 
     margin-top: 0.2em; 
     margin-left: 3em;
+    color: #38b4c7; 
 }
 
 #codepenFooter {
     font-size: 2em; 
     margin-top:-0.1em; 
     margin-left: 7em;
+    color: #38b4c7; 
 }
 
 #jsFooter {
     font-size: 2em; 
     margin-left: 7em; 
     margin-top: 0.2em;
+    color: #38b4c7; 
 }
 
 #htmlFooter {
     font-size: 2em; 
     margin-left: 6em; 
     margin-top: 0.3em;
+    color: #38b4c7; 
 }
