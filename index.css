@@ -292,3 +292,93 @@ h3 {
     color: #38b4c7; 
 }
 
+@media screen and (max-width: 600px) {
+    nav {
+        max-width: 380px;
+    }
+    
+    .navbar {
+        height: 10vh; 
+    }
+    
+    .navbar-toggler {
+        margin-left: auto; 
+    }
+    
+    .section1 {
+        overflow: scroll; /* allows for separation of the first and second sections */
+    }
+    
+    .show ul li {
+        margin-left: auto; 
+    }
+    
+    /* SECTION 1 iphoneX view css */ 
+    #nameExpand {
+        font-size: 50px; 
+        text-align: center; 
+        padding-top: 25px; 
+        margin-left: 15px; 
+        padding-bottom: 10px; 
+    }
+    
+    #occupation {
+        font-size: 50px; 
+    }
+    
+    #link1 { /* linkedIn */
+        padding-right: 10em; 
+        padding: 10px; 
+        margin-top: -2.5em; 
+    }
+    
+    #link2 {  /* Github link */
+        padding-right: 10em; 
+        padding: 10px; 
+        padding-left: 0.9em; 
+    }
+    
+    #importantlinks {
+        padding-left: 6.5em; 
+        padding-top: -4em; 
+    }
+    
+    /* PROJECT SECTION */
+    #portfoliolabel {
+        margin-left: 0.3em; 
+        margin-top: -2em; 
+        text-align: center; 
+    }
+    
+    /* ABOUT ME SECTION IphoneX css*/
+    #card1 {
+        margin-left: -1.5em; 
+        padding-bottom: 3em; 
+    }
+    
+    #card2 {
+        margin-left: -1.5em; 
+    }
+    
+    #card3 {
+        padding-top: 3em; 
+        margin-left: -1.5em; 
+    }
+    
+    #contactText {
+        margin-top: 0.5em; 
+        margin-bottom: -10px; 
+    }
+    
+    #contactIntro {
+        margin-top: -0.3em; 
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer {
+        padding-left: 1em;
+        padding-bottom: 2em; 
+        margin-bottom: 2em; 
+    }
+}
