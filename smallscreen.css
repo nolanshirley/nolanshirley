@@ -85,7 +85,8 @@ nav {
 
 /* FOOTER SECTION */
 
-#footerContent {
-    padding-left: 3.5em;
-    margin-top: 0px; 
+.footer {
+    padding-left: 1em;
+    padding-bottom: 2em; 
+    margin-bottom: 2em; 
 }
