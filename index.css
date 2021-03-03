@@ -4,7 +4,6 @@ html {
 }
 
 body, 
-head, 
 footer {
     margin: 0; 
     background-color: #ffffff;
@@ -15,6 +14,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     margin-top: 8%; 
     margin-bottom: 15px;  
 }
+
 /* INTRODUCTION */
 #navbar {
     background-color: white; 
@@ -52,8 +52,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 #introduction {  
     padding: 5%; 
     font-weight: bolder; 
-    /* background-image: url(https://images.unsplash.com/photo-1524535412680-21809efc44e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2126&q=80);  */
-    height: 970px; 
+    min-height: 100vh; 
 }
 
 #name-occupation {
@@ -137,18 +136,15 @@ img {
 }
 
 h3 {
-    color: white; 
+    color: #38b4c7; 
 }
 
 
 .section1 {
-    margin-bottom: 6em; 
-    margin-top: -12em; 
-    /* background-image: url(https://images.unsplash.com/photo-1517933981816-1f2d0c2ffc0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);  */
-    height: 835px; 
-}
-/* ABOUT ME SECTION */
+    min-height: 100vh;
+} 
 
+/* ABOUT ME SECTION */
 .aboutme {
     text-align: center; 
     font-family: 'Merriweather', serif;
