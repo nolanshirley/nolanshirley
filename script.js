@@ -4,7 +4,7 @@ AOS.init({
     once: false, // whether animation should happen only onece - while scrolling down 
     mirror: false // whether element should animate out while scrolling past them 
   }); 
-  
+
    const func = () => {
        if (window.screen.width < 600) {
        const transition = document.querySelector(".transition").attributes["data-aos"].value = " "
