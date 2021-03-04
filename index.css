@@ -315,7 +315,7 @@ h3 {
 
 @media screen and (max-width: 600px) {
     nav {
-        max-width: 380px;
+        width: auto; 
     }
     
     .navbar {
@@ -323,15 +323,16 @@ h3 {
     }
     
     .navbar-toggler {
-        margin-left: auto; 
+        margin-right: auto; 
     }
     
     .section1 {
         overflow: scroll; /* allows for separation of the first and second sections */
+        min-height: 100vh;
     }
     
     .show ul li {
-        margin-left: auto; 
+        margin-right: auto; 
     }
     
     /* SECTION 1 iphoneX view css */ 
@@ -345,6 +346,7 @@ h3 {
     
     #occupation {
         font-size: 50px; 
+        padding-left: 1.5rem;
     }
     
     #link1 { /* linkedIn */
@@ -367,7 +369,7 @@ h3 {
     /* PROJECT SECTION */
     #portfoliolabel {
         margin-left: 0.3em; 
-        margin-top: -2em; 
+        margin-top: 1rem; 
         text-align: center; 
     }
     
