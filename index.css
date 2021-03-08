@@ -185,7 +185,7 @@ h3 {
 }
 
 .card { 
-    border: solid 3px #030f80; 
+    border: solid 3px rgb(150, 65, 255); 
     border-radius: 8px 8px 8px 8px; 
 }
 
@@ -200,7 +200,7 @@ h3 {
 }
 
 .card-body {
-    background-color: #1E2AB0; 
+    background-color: rgb(150, 65, 255); 
     /* #030f80;  */
 }
 
@@ -244,7 +244,7 @@ h3 {
 }
 
 .sendButton {
-    background-color: #1E2AB0;
+    background-color: rgb(150, 65, 255);
     color: white; 
     font-weight: bolder; 
     font-size: 20px; 
@@ -255,7 +255,7 @@ h3 {
 }
 
 .inputField {
-    border: 2px solid #030f80;  
+    border: 2px solid rgb(150, 65, 255);  
 }
 
 .contactIntro {
